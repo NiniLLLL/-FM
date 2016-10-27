@@ -124,7 +124,7 @@ html{
 .ch_home header .ch_bottom ul li:nth-of-type(2) a{
 	border-bottom: 2px solid #ff6542;
 	color: #ff6542;
-}*/
+}
 
 /*轮播图部分的样式*/
 .ch_home .swiper{
@@ -293,4 +293,32 @@ html{
 	margin-top: .5rem;
 	color: #9c9a9c;
 	margin-bottom: .9rem;
+}
+
+
+@media only screen and (max-width:435px) {
+	html{
+		font-size: 16.3px;
+	}
+}
+@media only screen and (max-width:414px) {
+	html{
+		font-size: 15.5px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	html{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:360px) {
+	html{
+		font-size: 13.4px;
+	}
+}
+@media only screen and (max-width:320px) {
+	html{
+		font-size: 12px;
+	}
 }

@@ -25,6 +25,22 @@ app.config(['$routeProvider',function ($routeProvider){
 				templateUrl:'./mine/html/mine.html',
 				controller:'mineCtrl'
 		})
+		.when('/fl',{
+			templateUrl:'./fl/html/fl.html',
+			controller:'flCtrl'
+		})
+		.when('/tj',{
+			templateUrl:'./tj/html/tj.html',
+			controller:'tjCtrl'
+		})
+		.when('/bd',{
+			templateUrl:'./bd/html/bd.html',
+			controller:'bdCtrl'
+		})
+		.when('/zb',{
+			templateUrl:'./zb/html/zb.html',
+			controller:'zbCtrl'
+		})
 		//其他
 		.otherwise({ // 类似于switch的default情况，上面不处理的话走这里
         redirectTo: '/' // 重定向到首页

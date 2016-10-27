@@ -1,0 +1,26 @@
+@media only screen and (max-width:435px) {
+	html{
+		font-size: 16.3px;
+	}
+}
+@media only screen and (max-width:414px) {
+	html{
+		font-size: 15.5px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	html{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:360px) {
+	html{
+		font-size: 13.4px;
+	}
+}
+@media only screen and (max-width:320px) {
+	html{
+		font-size: 12px;
+	}
+}

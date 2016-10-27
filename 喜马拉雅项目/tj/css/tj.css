@@ -1,0 +1,291 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 12px;
+	background-color: #efefef;
+}
+
+.ch-tj header{
+	width: 100%;
+	height: 7.8975rem;
+	background-color: ;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+}
+.ch-tj header .ch_top{
+	width: 100%;
+	height: 4.3875rem;
+	background-color: #f7f7f7;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ch-tj header .ch_top .ch_top_left{
+	width: 7.583rem;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ch-tj header .ch_top .ch_top_middle{
+	width: 11.9166rem;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ch-tj header .ch_top .ch_top_right{
+	width: 6.7533rem;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ch-tj header .ch_top .ch_top_left img{
+	width: 6rem;
+	height: 1.8rem;
+}
+.ch-tj header .ch_top .ch_top_middle .sea-wrapper{
+	width: 100%;
+	height: 2.1rem;
+	background-color:#fff;
+	border-radius: 15px;
+	border:1px solid #efefef;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+}
+.ch-tj header .ch_top .ch_top_middle .sea-wrapper img{
+	width: 1.4rem;
+	height: 1.4rem;
+	margin-top: .3rem;
+	margin-left: .5rem;
+	margin-right: .4rem;
+}
+.ch-tj header .ch_top .ch_top_middle .sea-wrapper input{
+	font-size:1rem;
+	border: none;
+	outline: none;
+	color: #ccc;
+}
+
+.ch-tj header .ch_top .ch_top_right p{
+	text-align: center;
+	font-size: 1rem;
+	color: #949694;
+}
+.ch-tj header .ch_top .ch_top_right img{
+	width: 2rem;
+	height: 2rem;
+}
+
+
+.ch-tj .void{
+	width: 100%;
+	height: 7.8975rem;
+	display: block;
+}
+.ch-tj header .ch_bottom{
+	width: 100%;
+	flex-grow: 1;
+	background-color:#f7f7f7;
+}
+
+.ch-tj header .ch_bottom ul{
+	width: 100%;
+	height: 3.510rem;
+	display: flex;
+	justify-content: space-around;
+}
+.ch-tj header .ch_bottom ul li{
+	list-style: none;
+	width: 5.22rem;
+	height: 100%;
+}
+.ch-tj header .ch_bottom ul li a{
+	display: block;
+	text-decoration: none;
+	color: #636563;
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	line-height: 3.510rem;
+	padding-bottom: .4rem;
+	font-size: 1.19rem;
+	font-weight: bolder;
+}
+/*.ch-tj header .ch_bottom ul li:nth-of-type(2) a{
+	border-bottom: 2px solid #ff6542;
+	color: #ff6542;
+}*/
+.ch-tj header .ch_bottom ul li:nth-of-type(1) a{
+	border-bottom: 2px solid #ff6542;
+	color: #ff6542;
+}
+.ch-tj .void{
+	width: 100%;
+	height: 7.8975rem;
+	background-color: rgb(180, 222, 103);
+}
+
+
+
+
+.ch-tj main .ch-tj-one{
+	width: 100%;
+	background-color: rgb(3, 112, 166);
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+.ch-tj main .ch-tj-top{
+	width: 100%;
+	height: 6.333rem;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ch-tj main .ch-tj-top .tj-left{
+	width: 3.8rem;
+	height: 3.8rem;
+	background-color: ;
+	border: 1px solid #ccc;
+	padding: .3rem;
+	position: relative;
+	box-shadow: 0 0 .4rem #ccc
+}
+.ch-tj main .ch-tj-top .tj-left img{
+	width: 100%;
+	height: 100%;
+}
+
+.ch-tj main .ch-tj-top .tj-left div{
+	width: 2rem;
+	height: 2rem;
+	background-image: url(../imgs/btn_record_prelisten_unable.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 1.2rem;
+	left: 1.2rem;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+}
+
+.ch-tj main .ch-tj-top .tj-middle{
+	width: 14.53rem;
+	height: 4.5rem;
+	background-color: ;
+	overflow: hidden;
+}
+.ch-tj main .ch-tj-top .tj-middle h2{
+	font-size: 1.2rem;
+	margin-bottom:.5rem;
+	margin-top: .3rem;
+}
+.ch-tj main .ch-tj-top .tj-middle p{
+	color: #838383;
+}
+.ch-tj main .ch-tj-top .tj-right{
+	margin-bottom:3rem;
+}
+.ch-tj main .ch-tj-top .tj-right .tj-quit{
+	width: 2rem;
+	height: 1.6rem;
+	border-radius: 20px;
+	border: 1px solid #f0f0f0;
+}
+.ch-tj main .ch-tj-top .tj-right .tj-quit img{
+	width: 90%;
+	height: 100%;
+	margin-left: .1rem;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom{
+	flex-grow: 1;
+	background-color: #fff;
+	width: 100%;
+	height: 3rem;
+	color: #979797;
+	position: relative;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom ul {
+	display: flex;
+	align-items: center;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom ul li{
+	list-style: none;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	padding: .1rem .2rem .1rem .2rem;
+	margin-left: 1rem;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom ul li:first-of-type{
+	display: flex;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom ul li:first-of-type span{
+	width: 1.3rem;
+	height: 1.3rem;
+	display: block;
+	background-image: url(../imgs/menu_like_normal.png);
+	background-size: contain;
+}
+
+.ch-tj main .ch-tj-one .ch-tj-bottom ul li:last-of-type{
+	display: flex;
+	border: none;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom ul li:last-of-type span{
+	width: 1.3rem;
+	height: 1.3rem;
+	display: block;
+	background-image: url(../imgs/sound_icon_small.png);
+	background-size: contain;
+	margin-right: .2rem;
+}
+.ch-tj main .ch-tj-one .ch-tj-bottom .ch-download{
+	width: 2rem;
+	height: 2rem;
+	background-image: url(../imgs/player_more_download.png);
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	position: absolute;
+	background-position: 44% 45%;
+	top: -.5rem;
+	right: 1rem;
+}
+
+
+@media only screen and (max-width:435px) {
+	html{
+		font-size: 16.3px;
+	}
+}
+@media only screen and (max-width:414px) {
+	html{
+		font-size: 15.5px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	html{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:360px) {
+	html{
+		font-size: 13.4px;
+	}
+}
+@media only screen and (max-width:320px) {
+	html{
+		font-size: 12px;
+	}
+}
