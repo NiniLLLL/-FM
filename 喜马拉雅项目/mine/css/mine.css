@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 12px;
+	background-color: #efefef;
+}
+.ch-mine header{
+	width: 100%;
+	height: 15.7575rem;
+	background-color:rgb(39, 174, 189);
+	display: flex;
+	flex-direction: column;
+}
+.ch-mine-top{
+	width: 100%;
+	height: 10.934rem;
+	background-color: ;
+}
+.ch-mine-left{
+	width: 5.73rem;
+	height: 5.73rem;
+	background-color: rgb(218, 156, 70);
+	border-radius: 50%;
+	margin-bottom: 1.5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+.ch-mine-right{
+	flex-grow: 1;
+	margin-bottom: 2rem;
+	color: rgb(235, 237, 240);
+}
+.ch-mine-top{
+	display: flex;
+	align-items: flex-end;
+}
+.ch-mine-top .ch-mine-right p:first-of-type{
+	background-color: ;
+	font-family: "微软雅黑";
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #fff;
+}
+.ch-mine-top .ch-mine-right p:last-of-type{
+	background-color: ;
+	font-family: "微软雅黑";
+	font-size: 1.2rem;
+	display: flex;
+	height: 2.4rem;
+}
+.ch-mine-top .ch-mine-right p:last-of-type span{
+	display: block;
+	height: 100%;
+	line-height: 2.4rem;
+}
+.ch-mine-top .ch-mine-right p:last-of-type span:nth-of-type(2){
+	width: .2rem;
+	height: 100%;
+	background-color: #fff;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.ch-mine-top .ch-mine-right p:last-of-type span:last-of-type{
+	width: 1rem;
+	height: 1rem;
+	background-image: url(../imgs/ic_more.png);
+	background-repeat: no-repeat;
+	background-size: .6rem;
+	margin-left: 9rem;
+}
+
+.ch-mine-bottom{
+	flex-grow: 1;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.ch-mine-bottom ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: .4rem;
+}
+.ch-mine-bottom ul li{
+	list-style: none;
+	height: 100%
+}
+.ch-mine-bottom ul li a{
+	text-decoration: none;
+	color: #d9edeb;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ch-mine-bottom ul li img{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.ch-mine-bottom ul li a p{
+	text-align: center;
+}
+
+.ch-mine nav{
+	width: 100%;
+	height: 9.9275rem;
+	background-color:#efefef;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.ch-mine nav div{
+	width: 24rem;
+	height: 3.4rem;
+	background-color: pink;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 3.4rem;
+	font-family: "微软雅黑";
+	font-size: 1.2rem;
+}
+
+.ch-mine .nv-top{
+	background-color: #fe6641;
+	color: #fff;
+}
+.ch-mine .nv-bottom{
+	background-color: #fff;
+}
+
+.ch-mine main .ch-one{
+	width: 100%;
+	height: 6.745rem;
+	background-color: #fff;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+.ch-mine main .ch-one div{
+	width: 100%;
+	height: 3.3725rem;
+	border-bottom: 1px solid #efefef;
+	display: flex;
+	justify-content: space-between;
+}
+.ch-mine main .ch-one  .ch-one-left{
+	display: flex;
+	align-items: center;
+}
+.ch-mine main .ch-one  .ch-one-left p:first-of-type{
+	width: 2rem;
+	height: 2rem;
+	background-image: url(../imgs/ic_wd_buy.png);
+	background-repeat: no-repeat;
+	background-size: 2.5rem;
+	background-position: 51% 57%;
+	margin-right: 1rem;
+	margin-left: .9rem;
+}
+.ch-mine main .ch-one  .ch-one-left p:nth-of-type(2){
+	font-size: 1.25rem;
+	font-family: "微软雅黑";
+}
+.ch-mine main .ch-one  .ch-one-right span{
+	width: 1.5rem;
+	height: 1.5rem;
+	display: block;
+	background-image: url(../imgs/ic_more.png);
+	background-repeat: no-repeat;
+	background-size: .9rem;
+}
+.ch-mine main .ch-one  .ch-one-right{
+	display: flex;
+	align-items: center;
+}
+.ch-mine main .ch-one div:last-of-type p:first-of-type{
+	background-image: url(../imgs/ic_wd_ximoney.png);
+}
+
+.ch-mine main .ch-one:nth-child(2) div:first-of-type p:first-of-type{
+	background-image: url(../imgs/ic_like_default.png);
+	background-size: 2.1rem;
+	background-position: 51% 47%;
+}
+.ch-mine main .ch-one:nth-child(2) div:last-of-type p:first-of-type{
+	background-image: url(../imgs/ic_wd_robot.png);
+}
+.ch-mine main .ch-one:nth-child(3){
+	margin-bottom: 0;
+	border-bottom: 1px solid #efefef;
+}
+
+.ch-mine main .ch-one:nth-child(3) div:first-of-type p:first-of-type{
+	background-image: url(../imgs/ic_tyq_detail_more.png);
+	background-size: 2.1rem;
+	background-position: 51% 47%;
+}
+
+.ch-mine main .ch-one:nth-child(3) div:last-of-type p:first-of-type{
+	background-image: url(../imgs/ic_wd_feedback.png);
+}
+.ch-mine main .ch-one:nth-child(4){
+	margin-top: 0;
+	margin-bottom: 6rem;
+	height: 3.3725rem;
+}
+
+.ch-mine main .ch-one:nth-child(4) div:first-of-type p:first-of-type{
+	background-image: url(../imgs/ic_wd_setting.png);
+	background-size: 2.1rem;
+	background-position: 51% 47%;
+}

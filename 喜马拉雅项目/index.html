@@ -2,21 +2,55 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
-        <style media="screen">
-            * {
-                margin: 0;
-                padding: 0;
-            }
-
-        </style>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>home</title>
+				<link rel="stylesheet" href="index.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="swiper.css" media="screen" title="no title" charset="utf-8">
+    		<script src="./libs/angular.js" charset="utf-8"></script>
+				<script src="./libs/angular-route.js" charset="utf-8"></script>
+				<script src="./libs/angular-css.js" charset="utf-8"></script>
+        <script src="./libs/jquery-2.2.3.js" charset="utf-8"></script>
+        <script src="./libs/swiper.js" charset="utf-8"></script>
     </head>
-    <body>
+    <body ng-app="myApp">
 
-        <h1>haha</h1>
+				<div class="ch-footer">
+				<nav>
+					<ul>
+						<li><a href="#/"><section class="sprit">
 
+						</section><p>
+							首页
+						</p></a></li>
+						<li><a href="#/subscript"><section class="sprit">
+
+						</section><p>
+							订阅
+						</p></a></li>
+						<li><a href="#/play">
+						  <section class="playwrap">
+						      <img src="imgs/student_unchecked.png" alt="" />
+						  </section>
+						</a></li>
+						<li><a href="#/finder"><section class="sprit">
+
+						</section><p>
+							发现
+						</p></a></li>
+						<li><a href="#/mine"><section class="sprit">
+
+						</section><p>
+							我的
+						</p></a></li>
+					</ul>
+				</nav>
+
+				</div>
+				<div ng-view></div>
     </body>
-    <script type="text/javascript">
-
-    </script>
+		<script src="route.js" charset="utf-8"></script>
+	  <script src="home/js/home.js" charset="utf-8"></script>
+    <script src="mine/js/mine.js" charset="utf-8"></script>
+    <script src="subscript/js/subscript.js" charset="utf-8"></script>
+    <script src="finder/js/finder.js" charset="utf-8"></script>
 </html>
