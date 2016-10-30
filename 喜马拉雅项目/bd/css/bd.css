@@ -1,31 +1,19 @@
-*{
-	margin:0;
-	padding:0;
-}
-html,body{
-	height:100%;
-	width:100%;
-	/*font-family:"微软雅黑";*/
-	font-size:12px;
-	/*letter-spacing:0.125rem;*/
-	 /*font-size:12px;*/
-}
-a{
-	display:inline-block;
-	text-decoration:none;
-}
+
 
 
 #xf_bangdan header{
 	width: 100%;
 	height: 7.8975rem;
-	background-color: ;
+	background-color:#F7F7F7;
 	display: flex;
 	flex-direction: column;
 	position: fixed;
 	top: 0;
+	z-index: 10;
 }
 #xf_bangdan header .ch_top{
+	padding:0 3%;
+	box-sizing:border-box;
 	width: 100%;
 	height: 4.3875rem;
 	background-color: #f7f7f7;
@@ -34,7 +22,8 @@ a{
 }
 
 #xf_bangdan header .ch_top .ch_top_left{
-	width: 7.583rem;
+	/*width: 7.583rem;*/
+	flex-basis:22.8%;
 	height: 100%;
 	background-color: ;
 	display: flex;
@@ -42,28 +31,31 @@ a{
 	align-items: center;
 }
 #xf_bangdan header .ch_top .ch_top_middle{
-	width: 11.9166rem;
+	/*width: 11.9166rem;*/
+	flex-basis:47%;
 	height: 100%;
 	background-color: ;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-#xf_bangdan header .ch_top .ch_top_right{
+#xf_bangdan  header .ch_top .ch_top_right{
 	width: 6.7533rem;
 	height: 100%;
 	background-color: ;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	text-align:center;
 }
 #xf_bangdan header .ch_top .ch_top_left img{
-	width: 6rem;
-	height: 1.8rem;
+	width: 7rem;
+	height: 1.9rem;
 }
 #xf_bangdan header .ch_top .ch_top_middle .sea-wrapper{
 	width: 100%;
-	height: 2.1rem;
+	height: 2.75rem;
+	line-height:2.75rem;
 	background-color:#fff;
 	border-radius: 15px;
 	border:1px solid #efefef;
@@ -74,15 +66,21 @@ a{
 #xf_bangdan header .ch_top .ch_top_middle .sea-wrapper img{
 	width: 1.4rem;
 	height: 1.4rem;
-	margin-top: .3rem;
+	margin-top: .7rem;
 	margin-left: .5rem;
-	margin-right: .4rem;
+	margin-right: .6rem;
+}
+#xf_bangdan header .ch_top .ch_top_middle .sea-wrapper a{
+	display: block;
+	text-decoration: none;
+	color: #efefef;
 }
 #xf_bangdan header .ch_top .ch_top_middle .sea-wrapper input{
-	font-size:1rem;
+	font-size:1.25rem;
 	border: none;
 	outline: none;
 	color: #ccc;
+	margin-top: .4rem;
 }
 
 #xf_bangdan header .ch_top .ch_top_right p{
@@ -109,13 +107,13 @@ a{
 	background-color:#f7f7f7;
 }
 
-#xf_bangdan header .ch_bottom ul{
+#xf_bangdan  header .ch_bottom ul{
 	width: 100%;
 	height: 3.510rem;
 	display: flex;
 	justify-content: space-around;
 }
-#xf_bangdan header .ch_bottom ul li{
+#xf_bangdan  header .ch_bottom ul li{
 	list-style: none;
 	width: 5.22rem;
 	height: 100%;
@@ -129,38 +127,21 @@ a{
 	text-align: center;
 	line-height: 3.510rem;
 	padding-bottom: .4rem;
-	font-size: 1.19rem;
-	font-weight: bolder;
+	font-size: 1.7rem;
+	/*font-weight: bolder;*/
 }
-/*#xf_bangdan header .ch_bottom ul li:nth-of-type(2) a{
-	border-bottom: 2px solid #ff6542;
-	color: #ff6542;
-}*/
 #xf_bangdan header .ch_bottom ul li:nth-of-type(4) a{
-	border-bottom: 2px solid #ff6542;
+	border-bottom: 3px solid #ff6542;
 	color: #ff6542;
 }
-#xf_bangdan .void{
-	width: 100%;
-	height: 7.8975rem;
-	background-color: rgb(180, 222, 103);
-}
-
-
-
-
-
-
-
 
 /*榜单logo图*/
 #xf_bangdan{
 	height:100%;
-	/*background:deeppink;*/
+	background:#fff;
 }
 #xf_bangdan>.header{
 	width:100%;
-	/*height:33.7rem;*/
 }
 #xf_bangdan>.header img{
 	width:auto;
@@ -168,7 +149,6 @@ a{
  	max-width:100%;
  	max-height:100%;
 }
-
 /*main列表*/
 /*分为两块，但结构相似，统一设置样式*/
 #xf_bangdan main {
@@ -176,9 +156,7 @@ a{
 	box-sizing:border-box;
 
 }
-#xf_bangdan main .bangdan_list{
 
-}
 /*标题*/
 #xf_bangdan main .bangdan_list>h5{
 	font-size:1.75rem;
@@ -189,8 +167,8 @@ a{
 /*三角*/
 #xf_bangdan main .bangdan_list>h5 span{
 	display:inline-block;
-	border-top:transparent 1.2rem solid;
-	border-bottom:transparent 1.2rem solid;
+	border-top:transparent 0.8rem solid;
+	border-bottom:transparent 0.8rem solid;
 	border-right:transparent 0rem solid;
 	border-left:1rem solid #f19e76;
 	vertical-align:middle;
@@ -222,9 +200,7 @@ a{
 	height:7rem;
 }
 #xf_bangdan main .bangdan_list ul li div:first-child img{
-	width:auto;
-	height:auto;
-	max-width:100%;
+	/**/
 	max-height:100%;
 }
 /*中侧*/
@@ -234,8 +210,9 @@ a{
 }
 #xf_bangdan main .bangdan_list ul li a div:nth-child(2) h3{
 	color:#000;
-	font-size:1.5rem;
-	margin-bottom:1.3rem;
+	font-weight:500;
+	font-size:1.7rem;
+	margin-bottom:1rem;
 }
 #xf_bangdan main .bangdan_list ul li a div:nth-child(2) p{
 	color:#adadad;
@@ -255,17 +232,21 @@ a{
 	width:1rem;
 	height:2rem;
 }
+
+#xf_bangdan main .bangdan_list{
+	margin-bottom: 7rem;
+}
 /*处理iPhone5以下的屏幕*/
 @media only screen and (max-width:379px) {
 	/*左侧div*/
 	#xf_bangdan main .bangdan_list ul li div:first-child{
 		height:6rem;
-		padding:0.15rem;
+		padding:0.15rem 0.18rem 0.15rem 0.15rem;
 		box-shadow:0px 0px 0.6rem #5E5E5E;
 	}
 	/*中间的文字*/
 	#xf_bangdan main .bangdan_list ul li a div:nth-child(2) p{
-		font-size:1.2rem;
+		font-size:1.4rem;
 		line-height:1.8rem;
 		width:15rem;
 	}
@@ -274,5 +255,35 @@ a{
 		margin-top:2rem;
 		width:0.7rem;
 		height:1.2rem;
+	}
+	#xf_bangdan header .ch_top .ch_top_middle .sea-wrapper{
+		width: 86%;
+	}
+}
+
+@media only screen and (min-width:400px) {
+	#xf_bangdan main .bangdan_list ul li div:first-child img{
+		width:auto;
+		height:auto;
+		max-width:100%;
+	}
+}
+@media only screen and (min-width:370px) {
+	#xf_bangdan main .bangdan_list ul li div:first-child img{
+		width:auto;
+		height:auto;
+		max-width:100%;
+		max-height:100%;
+	}
+
+}
+@media only screen and (max-width:325px){
+	#xf_bangdan header .ch_top .ch_top_left img{
+		height:1.8rem;
+		width:5.5rem;
+	}
+	#xf_bangdan header .ch_top .ch_top_right img{
+		height:1.5rem;
+		width:1.5rem;
 	}
 }

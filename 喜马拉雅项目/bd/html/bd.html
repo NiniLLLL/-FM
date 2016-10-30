@@ -48,23 +48,23 @@
 			<main>
 				<section class="bangdan_list">
 					<h5><span></span>节目榜单</h5>
-					<ul>
+					<ul ng-repeat="n in value">
 						<li>
 							<a href="#">
-								<div><img src="bd/imgs/zb3.png"/></div>
+								<div><img ng-src="{{ n.img }}"/></div>
 								<div>
-									<h3>最火节目飙升榜</h3>
-									<p>1&nbsp;首席医官412总长夫人</p>
-									<p>2&nbsp;《摸金天使》第11文件浮动撒娇否  极乐空间拉近了看1章 拉屎锁魂</p>
+									<h3>{{ n.title }}</h3>
+									<p>1&nbsp;{{ n.info_one }}</p>
+									<p>2&nbsp;{{ n.info_two }}</p>
 								</div>
 								<div>
-									<img src="bd/imgs/rightarrow.gif"/>
+									<img src="bd/imgs/ic_more.png"/>
 								</div>
 							</a>
 						</li>
 					</ul>
 
-					<ul>
+					<!-- <ul>
 						<li>
 							<a href="#">
 								<div><img src="bd/imgs/zb3.png"/></div>
@@ -78,7 +78,7 @@
 								</div>
 							</a>
 						</li>
-					</ul>
+					</ul> -->
 
 				</section>
 
@@ -86,17 +86,17 @@
 
 				<section class="bangdan_list">
 					<h5><span></span>主播榜单</h5>
-					<ul>
+					<ul ng-repeat="z in zb">
 						<li>
 							<a href="#">
-								<div><img src="bd/imgs/zb3.png"/></div>
+								<div><img ng-src="{{ z.img }}"/></div>
 								<div>
-									<h3>最火节目飙升榜</h3>
-									<p>1&nbsp;首席医官412总长夫人</p>
-									<p>2&nbsp;《摸金天使》第111章 拉屎锁魂</p>
+									<h3>{{ z.title }}</h3>
+									<p>1&nbsp;{{ z.info_one }}</p>
+									<p>2&nbsp;{{ z.info_two }}</p>
 								</div>
 								<div>
-									<img src="bd/imgs/rightarrow.gif"/>
+									<img src="bd/imgs/ic_more.png"/>
 								</div>
 							</a>
 						</li>

@@ -1,1 +1,81 @@
-<h1>这是paly</h1>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title>播放界面</title>
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+				<div class="list_container">
+		<div class="xf_list">
+					<p>专辑列表</p>
+					<section ng-repeat="ele in zhuanji" class="zhuanji">
+						<div>
+							<h3>{{ ele.name }}</h3>
+							<p>{{ ele.info }}</p>
+						</div>
+						<div>
+							<img src="{{ ele.img }}" alt="">
+						</div>
+
+					</section>
+				</div>
+		</div>
+		<div class="playContainer">
+		<div id="xf_player">
+			<section class="tixing">
+			</section>
+			<header>
+				<a href="" ng-click="gotoAnchor()" class="hehe hide_show">
+					<img src="play/imgs/xia.png"/>
+				</a>
+				<div class="xf_show">
+					 <img src="play/imgs/album_play.png"/>
+					 <span>播放中</span>
+					 <span class="animate style1">|</span><span class="animate2 style1">|</span><span class="animate3 style1">|</span>
+
+				</div>
+				<div>
+					<img src="play/imgs/share.gif"/>
+					<img src="play/imgs/shenglue.gif" alt="" />
+				</div>
+			</header>
+			<div class="video" id="anchor1" >
+				<div class="video_top">
+					<section>
+						<div class="meidian"><img src="play/imgs/zan.gif" alt="" /><span>10</span></div>
+						<div><img src="play/imgs/resizeApi.gif" alt="" /></div>
+						<div><img src="play/imgs/duihua.gif" alt="" /></div>
+						<div><img src="play/imgs/shenglue.gif" alt="" /></div>
+					</section>
+				</div>
+				<div class="video_bottom">
+					<div class="slide"><img src="play/imgs/2016-10-27_213518.jpg" alt="" /> </div>
+					<div><img src="play/imgs/left_sing2.gif" alt="" /></div>
+					<div><img src="play/imgs/zhanting.png" alt="" />
+					</div>
+					<div><img src="play/imgs/right_sing2.gif" alt="" /></div>
+					<div class="timeout"><img src="play/imgs/2016-10-27_213530.jpg" alt="" /></div>
+				</div>
+			</div>
+
+			<main>
+				<audio src="" controls="controls" hidden></audio>
+				<section ng-repeat="ele in data" class="main-list">
+					<div>
+						<img src="{{ ele.img }}" alt="">
+					</div>
+					<div>
+						<h3>{{ ele.name }}</h3>
+						<p>{{ ele.info }}</p>
+					</div>
+
+				</section>
+			</main>
+		</div>
+</div>
+	</body>
+</html>

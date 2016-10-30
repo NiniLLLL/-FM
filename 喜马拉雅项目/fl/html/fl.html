@@ -48,6 +48,85 @@
 						</nav>
 
 						<main>
+								<ul class="ch-fl-one" ng-repeat="(key, val) in value">
+									<li ng-repeat="n in val"><a href="#">
+										<div class="ch-logimg">
+											<img ng-src="{{ n.img }}" alt="" />
+										</div>
+										<p>{{ n.info }}</p>
+									</a></li>
+									<!-- <li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li> -->
+								</ul>
+
+
+								<!-- <ul class="ch-fl-one">
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+									<li><a href="#">
+										<div class="ch-logimg">
+											<img src="fl/imgs/category_car.png" alt="" />
+										</div>
+										<p>有声书</p>
+									</a></li>
+								</ul>
+
 								<ul class="ch-fl-one">
 									<li><a href="#">
 										<div class="ch-logimg">
@@ -125,90 +204,21 @@
 										</div>
 										<p>有声书</p>
 									</a></li>
-								</ul>
-
-								<ul class="ch-fl-one">
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-								</ul>
-
-
-								<ul class="ch-fl-one">
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-									<li><a href="#">
-										<div class="ch-logimg">
-											<img src="fl/imgs/category_car.png" alt="" />
-										</div>
-										<p>有声书</p>
-									</a></li>
-								</ul>
+								</ul> -->
 						</main>
 
 						<section class="swiper">
-							<img src="fl/imgs/fl-bg.jpg" alt="" />
+              <div class="swiper-container">
+          <div class="swiper-wrapper">
+          	<div class="swiper-slide"><img src="fl/imgs/fl-bg.jpg" alt=""></div>
+          	<div class="swiper-slide"><img src="fl/imgs/flbg1.jpg" alt=""></div>
+          	<div class="swiper-slide"><img src="fl/imgs/flbg2.jpg" alt=""></div>
+          	<div class="swiper-slide"><img src="fl/imgs/flbg3.jpg" alt=""></div>
+          	<div class="swiper-slide"><img src="fl/imgs/flbg4.jpg" alt=""></div>
+          </div>
+          	<!-- 分页器 -->
+          	<div class="swiper-pagination" id="position"></div>
+          </div>
 						</section>
 					</div>
     </body>

@@ -5,23 +5,46 @@
 html{
 	font-size: 12px;
 	background-color: #efefef;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
 }
 .ch-mine header{
 	width: 100%;
 	height: 15.7575rem;
-	background-color:rgb(39, 174, 189);
+	background:url(../imgs/14.jpg) no-repeat;
+	background-size:100%;
 	display: flex;
 	flex-direction: column;
+	opacity:1;
+
 }
+/*新增信封*/
+.ch-mine header>section:first-child{
+	position:absolute;
+	left:85%;
+	top:3%;
+
+}
+.ch-mine header section:first-child a:first-child img{
+	background:#fff;
+
+
+	height:1.5rem;
+}
+
+
+/*..*/
 .ch-mine-top{
 	width: 100%;
 	height: 10.934rem;
-	background-color: ;
 }
 .ch-mine-left{
+	opacity:0.9;
 	width: 5.73rem;
 	height: 5.73rem;
-	background-color: rgb(218, 156, 70);
+	background:url(../imgs/144.jpg) no-repeat;
+	background-size:5.73rem;
+	overflow:hidden;
 	border-radius: 50%;
 	margin-bottom: 1.5rem;
 	margin-right: 1rem;
@@ -37,16 +60,12 @@ html{
 	align-items: flex-end;
 }
 .ch-mine-top .ch-mine-right p:first-of-type{
-	background-color: ;
-	font-family: "微软雅黑";
 	font-size: 1.3rem;
-	font-weight: bold;
+	font-weight: 500;
 	color: #fff;
 }
 .ch-mine-top .ch-mine-right p:last-of-type{
-	background-color: ;
-	font-family: "微软雅黑";
-	font-size: 1.2rem;
+	font-size: 1rem;
 	display: flex;
 	height: 2.4rem;
 }
@@ -56,7 +75,7 @@ html{
 	line-height: 2.4rem;
 }
 .ch-mine-top .ch-mine-right p:last-of-type span:nth-of-type(2){
-	width: .2rem;
+	width: 0.05rem;
 	height: 100%;
 	background-color: #fff;
 	margin-left: 1rem;
@@ -64,12 +83,13 @@ html{
 }
 
 .ch-mine-top .ch-mine-right p:last-of-type span:last-of-type{
-	width: 1rem;
-	height: 1rem;
-	background-image: url(../imgs/ic_more.png);
-	background-repeat: no-repeat;
-	background-size: .6rem;
-	margin-left: 9rem;
+	position:absolute;
+	left:93%;
+	top:11%;
+	height:2rem;
+}
+.ch-mine-top .ch-mine-right p:last-of-type span:last-of-type img{
+	height:1rem;
 }
 
 .ch-mine-bottom{
@@ -85,7 +105,14 @@ html{
 	align-items: center;
 	margin-top: .4rem;
 }
+.ch-mine-bottom ul li:nth-child(2){
+	border-left:0.05rem solid #fff;
+	border-right:0.05rem solid #fff;
+}
 .ch-mine-bottom ul li{
+	padding-top:0.3rem;
+	text-align:center;
+	width:33%;
 	list-style: none;
 	height: 100%
 }
@@ -97,11 +124,9 @@ html{
 	height: 100%;
 }
 .ch-mine-bottom ul li img{
-	width: 2.5rem;
-	height: 2.5rem;
-}
-.ch-mine-bottom ul li a p{
-	text-align: center;
+	width: 2rem;
+	height: 2rem;
+	margin-bottom:0.2rem;
 }
 
 .ch-mine nav{
@@ -114,9 +139,8 @@ html{
 	align-items: center;
 }
 .ch-mine nav div{
-	width: 24rem;
+	width: 93%;
 	height: 3.4rem;
-	background-color: pink;
 	border-radius: 20px;
 	text-align: center;
 	line-height: 3.4rem;
@@ -134,14 +158,15 @@ html{
 
 .ch-mine main .ch-one{
 	width: 100%;
-	height: 6.745rem;
+	/*height: 6.745rem;*/
 	background-color: #fff;
 	margin-top: .8rem;
 	margin-bottom: 1rem;
 }
 .ch-mine main .ch-one div{
 	width: 100%;
-	height: 3.3725rem;
+	/*height: 3.3725rem;*/
+	height:5rem;
 	border-bottom: 1px solid #efefef;
 	display: flex;
 	justify-content: space-between;
@@ -162,7 +187,6 @@ html{
 }
 .ch-mine main .ch-one  .ch-one-left p:nth-of-type(2){
 	font-size: 1.25rem;
-	font-family: "微软雅黑";
 }
 .ch-mine main .ch-one  .ch-one-right span{
 	width: 1.5rem;
@@ -171,6 +195,7 @@ html{
 	background-image: url(../imgs/ic_more.png);
 	background-repeat: no-repeat;
 	background-size: .9rem;
+	margin-right: .4rem;
 }
 .ch-mine main .ch-one  .ch-one-right{
 	display: flex;
@@ -205,7 +230,8 @@ html{
 .ch-mine main .ch-one:nth-child(4){
 	margin-top: 0;
 	margin-bottom: 6rem;
-	height: 3.3725rem;
+	/*height: 3.3725rem;*/
+	height:5rem;
 }
 
 .ch-mine main .ch-one:nth-child(4) div:first-of-type p:first-of-type{
@@ -218,7 +244,7 @@ html{
 
 
 
-@media only screen and (max-width:435px) {
+/*@media only screen and (max-width:435px) {
 	html{
 		font-size: 16.3px;
 	}
@@ -243,4 +269,4 @@ html{
 	html{
 		font-size: 12px;
 	}
-}
+}*/

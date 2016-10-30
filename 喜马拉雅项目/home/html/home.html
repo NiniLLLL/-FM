@@ -8,7 +8,9 @@
 					<div class="ch_top_middle">
 							<div class="sea-wrapper">
 									<img src="home/imgs/ch-search.png" alt="" />
+									<a href="#/sou">
 									<input type="text" name="name" placeholder="好声音 林志玲 速成">
+									</a>
 							</div>
 					</div>
 					<div class="ch_top_right">
@@ -41,12 +43,23 @@
 	<!-- 轮播图部分 -->
 	<section class="swiper">
 
-
+		<div class="swiper-container">
+<div class="swiper-wrapper">
+	<div class="swiper-slide"><img src="home/imgs/ch-swiper-1.jpg" alt=""></div>
+	<div class="swiper-slide"><img src="home/imgs/ch-swiper-2.jpg" alt=""></div>
+	<div class="swiper-slide"><img src="home/imgs/ch-swiper-3.jpg" alt=""></div>
+	<div class="swiper-slide"><img src="home/imgs/ch-swiper-4.jpg" alt=""></div>
+	<div class="swiper-slide"><img src="home/imgs/ch-swiper-5.jpg" alt=""></div>
+	<div class="swiper-slide"><img src="home/imgs/ch-swiper-6.jpg" alt=""></div>
+</div>
+	<!-- 分页器 -->
+	<div class="swiper-pagination" id="position"></div>
+</div>
 
 	</section>
 
 	<!-- 下面导航部分 -->
-	<!-- <section class="nav">
+	 <section class="nav">
 		<ul>
 			<li><a href=""><img src="home/imgs/ch-1.png" alt="" /><p>经典必听</p></a></li>
 			<li><a href=""><img src="home/imgs/ch-2.png" alt="" /><p>付费精品</p></a></li>
@@ -59,7 +72,7 @@
 	</section>
 
 
-	<主体部分 -->
+	<!-- 主体部分 -->
 	<main>
 		<section class="style-one">
 				<section class="style-one-top">
@@ -74,11 +87,11 @@
 				</section>
 				<section class="style-one-bottom">
 							<ul>
-								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p></a></li>
-							<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
+								<!-- <li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p></a></li> -->
+							<li ng-repeat="n in value"><a href="#"><img ng-src="{{ n.img }}" alt="" /><p>{{ n.title }}</p>
 									<span></span><span>Futends</span>
 							</a></li>
-								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
+								<!-- <li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
 									<span></span><span>Futends</span>
 								</a>
 								</li>
@@ -112,7 +125,7 @@
 							</a></li>
 								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
 								</a>
-								</li>
+								</li> -->
 							</ul>
 				</section>
 		</section>
@@ -130,12 +143,12 @@
 				</section>
 				<section class="style-one-bottom">
 							<ul>
-								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p></a></li>
-							<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
+								<li ng-repeat="m in mon"><a href="#"><img ng-src="{{ m.img }}" alt="" /><p>{{ m.title }}</p></a></li>
+							<!-- <li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
 							</a></li>
 								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
 								</a>
-								</li>
+								</li> -->
 							</ul>
 				</section>
 		</section>
@@ -153,12 +166,12 @@
 				</section>
 				<section class="style-one-bottom">
 							<ul>
-								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p></a></li>
-							<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
+								<li ng-repeat="t in tui"><a href="#"><img ng-src="{{ t.img }}" alt="" /><p>{{ t.title }}</p></a></li>
+							<!-- <li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
 							</a></li>
 								<li><a href="#"><img src="home/imgs/exam.jpg" alt="" /><p>科技早报</p>
 								</a>
-								</li>
+								</li> -->
 							</ul>
 				</section>
 		</section>
@@ -168,7 +181,7 @@
 				<section class="style-one-top">
 							<div class="left">
 								<span></span>
-								<p>小编推荐</p>
+								<p>推荐广告</p>
 							</div>
 							<div class="right">
 								<p>更多</p>
@@ -176,7 +189,22 @@
 							</div>
 				</section>
 				<section class="style-one-bottom">
-						<img src="home/imgs/ch-swiper-1.jpg" alt="" />
+					<section class="swiper">
+
+						<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="home/imgs/ch-swiper-1.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="home/imgs/ch-swiper-2.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="home/imgs/ch-swiper-3.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="home/imgs/ch-swiper-4.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="home/imgs/ch-swiper-5.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="home/imgs/ch-swiper-6.jpg" alt=""></div>
+				</div>
+					<!-- 分页器 -->
+					<div class="swiper-pagination" id="position"></div>
+				</div>
+
+					</section>
 						<h3>小米:这回我真的弯了</h3>
 						<p>10月25号14点,在喜马拉雅听梁朝伟开启双面人生</p>
 				</section>

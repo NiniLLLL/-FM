@@ -215,7 +215,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #ffd600;
+  background: rgb(110, 103, 95);
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
   background: #fff;

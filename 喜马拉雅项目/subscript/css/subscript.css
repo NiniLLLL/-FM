@@ -22,15 +22,18 @@ a{
 	background:#eeeae7;
 }
 #xf_dingyue header{
+	position:fixed;;
+	left:0;
+	top:0;
 	height:5rem;
 	background:#fff;
 	width:100%;
 	padding:0 5.7% 0 7.2%;
 	box-sizing:border-box;
-	margin-bottom:1.33rem;
 	border-bottom:1px solid #EFEFEF;
 }
 #xf_dingyue header>a{
+	text-align:center;
 	height:5rem;
 }
 /*头左*/
@@ -40,8 +43,8 @@ a{
 }
 #xf_dingyue header div:first-child img{
 	margin-top:1.5rem;
-	width:2.25rem;
-	height:2.25rem;
+	width:2rem;
+	height:2rem;
 }
 /*头中*/
 #xf_dingyue header div:nth-child(2){
@@ -59,27 +62,31 @@ a{
 }
 /*头右*/
 #xf_dingyue header div:nth-child(3){
+	text-align:center;
 	float:right;
 }
 
 #xf_dingyue header div:nth-child(4){
 	float:left;
-	margin-left:4.8%;
+	margin-left:3.8%;
+}
+#xf_dingyue header div:nth-child(4) img{
+	margin-left:0.3rem;
 }
 #xf_dingyue header div:nth-child(3) img,#xf_dingyue header div:nth-child(4) img {
-	height:2.08rem;
+	height:1.8rem;
 	margin-top:1rem;
-	margin-left:0.5rem;
 }
 #xf_dingyue header div:nth-child(3) p,#xf_dingyue header div:nth-child(4) p {
 	color:#C1C1C1;
-	text-align:center;
 }
 
 /*列表*/
 
 #xf_dingyue main {
+	margin-top:5rem;
 	width:100%;
+	padding-bottom:5rem;
 }
 #xf_dingyue main a{
 	overflow:hidden;
@@ -95,11 +102,11 @@ a{
 /*列表左*/
 #xf_dingyue main .left{
 	float:left;
-	padding:2.3%;
+	padding:3% 2.3%;
 	width:20%;
 }
 #xf_dingyue main .left img{
-	padding:0.3rem;
+	padding:0.18rem;
 	width:100%;
 	box-shadow:0 0 1rem #000;
 }
@@ -114,7 +121,8 @@ a{
 
 }
 #xf_dingyue main .right h3{
-	font-size:1.7rem;
+	font-weight:500;
+	font-size:1.6rem;
 	padding-top:0.8rem;
 }
 #xf_dingyue main .right p:nth-child(2){

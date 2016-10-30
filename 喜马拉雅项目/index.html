@@ -13,31 +13,31 @@
         <script src="./libs/swiper.js" charset="utf-8"></script>
     </head>
     <body ng-app="myApp">
-
-				<div class="ch-footer">
+				<div ng-view></div>
+				<div class="ch-footer" ng-controller="CSScontroller">
 				<nav>
 					<ul>
-						<li><a href="#/"><section class="sprit">
+						<li ng-click="stun()"><a href="#/"><section class="sprit haha-{{ flag1 }}-1">
 
 						</section><p>
 							首页
 						</p></a></li>
-						<li><a href="#/subscript"><section class="sprit">
+						<li ng-click="stun2()"><a href="#/subscript"><section class="sprit haha-{{ flag2 }}-2">
 
 						</section><p>
 							订阅
 						</p></a></li>
-						<li><a href="#/play">
+						<li ng-click="stun5()"><a href="#/play">
 						  <section class="playwrap">
 						      <img src="imgs/student_unchecked.png" alt="" />
 						  </section>
 						</a></li>
-						<li><a href="#/finder"><section class="sprit">
+						<li ng-click="stun3()"><a href="#/finder"><section class="sprit haha-{{ flag3 }}-3">
 
 						</section><p>
 							发现
 						</p></a></li>
-						<li><a href="#/mine"><section class="sprit">
+						<li ng-click="stun4()"><a href="#/mine"><section class="sprit haha-{{ flag4 }}-4">
 
 						</section><p>
 							我的
@@ -46,10 +46,10 @@
 				</nav>
 
 				</div>
-				<div ng-view></div>
+
     </body>
-		<script src="route.js" charset="utf-8"></script>
-	  <script src="home/js/home.js" charset="utf-8"></script>
+	<script src="route.js" charset="utf-8"></script>
+	 <script src="home/js/home.js" charset="utf-8"></script>
     <script src="mine/js/mine.js" charset="utf-8"></script>
     <script src="subscript/js/subscript.js" charset="utf-8"></script>
     <script src="finder/js/finder.js" charset="utf-8"></script>
@@ -57,4 +57,6 @@
     <script src="tj/js/tj.js" charset="utf-8"></script>
     <script src="bd/js/bd.js" charset="utf-8"></script>
     <script src="zb/js/zb.js" charset="utf-8"></script>
+    <script src="sou/js/sou.js" charset="utf-8"></script>
+    <script src="play/js/play.js" charset="utf-8"></script>
 </html>
